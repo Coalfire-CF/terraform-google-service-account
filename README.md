@@ -1,5 +1,7 @@
 # Google Cloud Service Account Terraform Module
 
+## Description
+
 This module allows easy creation of one or more service accounts, and granting them basic roles.
 
 The resources/services/activations/deletions that this module will create/trigger are:
@@ -9,6 +11,17 @@ The resources/services/activations/deletions that this module will create/trigge
 - one optional billing IAM role binding per service account, at the organization or billing account level
 - two optional organization-level IAM bindings per service account, to enable the service accounts to create and manage Shared VPC networks
 - one optional service account key per service account
+
+FedRAMP Compliance: High
+
+### Usage
+```
+module "service-account" {
+    source = "github.com/Coalfire-CF/terraform-gcp-service-account"
+
+    project_id = "your-project-id"
+}
+```
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
