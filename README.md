@@ -19,12 +19,27 @@ The resources/services/activations/deletions that this module will create/trigge
 - two optional organization-level IAM bindings per service account, to enable the service accounts to create and manage Shared VPC networks
 - one optional service account key per service account
 
-### Usage
+## Dependencies
+
+- GCP Project
+
+## Usage
 ```
 module "service-account" {
     source = "github.com/Coalfire-CF/terraform-gcp-service-account"
 
+    # Required 
     project_id = "your-project-id"
+    names = ["service-account-name"]
+
+    # Optional
+    prefix = "sa"
+    display_name = "ServiceAccount1"
+    description = "description-of-service-account"
+    project_roles = [
+        "<your-project-id>=>roles/secretmanager.secretAccessor",
+        "<your-project-id>=>roles/source.reader",
+    ]
 }
 ```
 <!-- BEGIN_TF_DOCS -->
