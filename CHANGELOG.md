@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.1](https://github.com/Coalfire-CF/terraform-google-service-account/compare/v0.1.0...v0.1.1) (2026-07-23)
+
+
+### Bug Fixes
+
+* **release:** pass secrets to org-release (App token for release-please) ([#43](https://github.com/Coalfire-CF/terraform-google-service-account/issues/43)) ([4099b38](https://github.com/Coalfire-CF/terraform-google-service-account/commit/4099b38568aea3b0c49f09948d804ffc0902fd70))
+
+
+### Miscellaneous
+
+* adopt Actions v0.12.1 (bypass auto-merge + event-driven re-merge) ([a52009e](https://github.com/Coalfire-CF/terraform-google-service-account/commit/a52009eba5e917ab3e4aeacb9a34fc1d2ed4f963))
+* **ci:** adopt Coalfire-CF/Actions v0.11.3 ([#41](https://github.com/Coalfire-CF/terraform-google-service-account/issues/41)) ([252b1cf](https://github.com/Coalfire-CF/terraform-google-service-account/commit/252b1cfca4d5d0b9f06275faaa534ed02dded448))
+* **deps:** bump the org-actions group with 10 updates ([#44](https://github.com/Coalfire-CF/terraform-google-service-account/issues/44)) ([6863dbf](https://github.com/Coalfire-CF/terraform-google-service-account/commit/6863dbf7308d8aa30810b907c63dd190cfbbee0b))
+* **deps:** bump the org-actions group with 10 updates ([#45](https://github.com/Coalfire-CF/terraform-google-service-account/issues/45)) ([ab7c239](https://github.com/Coalfire-CF/terraform-google-service-account/commit/ab7c2396ca393f1a99017907f81cc4e807c41f13))
+* **deps:** bump the org-actions group with 10 updates ([#46](https://github.com/Coalfire-CF/terraform-google-service-account/issues/46)) ([c0397d7](https://github.com/Coalfire-CF/terraform-google-service-account/commit/c0397d730659df2362ef6b5413daa4f75b0e7b36))
+
 ## [0.1.0](https://github.com/Coalfire-CF/terraform-google-service-account/compare/v0.0.5...v0.1.0) (2026-07-05)
 
 
