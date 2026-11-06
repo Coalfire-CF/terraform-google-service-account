@@ -6,7 +6,7 @@
 ## Description
 
 This module allows easy creation of one or more service accounts, and granting them basic roles. Coalfire has tested
-this module with Terraform version 1.5.0 and the Hashicorp Google provider versions 4.70 - 5.0. 
+this module with Terraform version 1.5.0 and the Hashicorp Google provider versions 4.70 - 5.0.
 
 FedRAMP Compliance: High
 
